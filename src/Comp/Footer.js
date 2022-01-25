@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Footer(){
     return (
-        <div className="about-cont">
+        <div className="footer">
             <ul>
                 <li>Twiter</li>
                 <li>Facebook</li>

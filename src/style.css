@@ -14,7 +14,14 @@
     border-color: white;
     
 }
+.info--img{
+width: 100px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+top: 0%;
 
+
+}
 
 .footer {
     color: white;
@@ -23,7 +30,11 @@
     align-items: center;
     padding-top: 20px;
     padding-bottom: 5px;
-
+    margin: 0;
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 400;
+    top:0%;
 }
 
 .about-cont{

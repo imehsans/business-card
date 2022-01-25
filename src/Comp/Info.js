@@ -3,7 +3,7 @@ import React from "react"
 export default function Info(){
     return(
         <div className="top-cont">
-            <img className="info--img" src="./images/ehsan.png"/>
+            <img className="info--img" src="./ehsan.png" />
             <h2 className="info--h2">Ehsanullah</h2>
             <h4 className="info--h4">ReactJs Developer</h4>
             <a className="info--link" href="#">Website link</a>

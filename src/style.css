@@ -12,6 +12,8 @@
     border-radius: 5%;
     border: 4px solid;
     border-color: white;
+    height: fit-content;
+    width: fit-content;
     
 }
 .info--img{
@@ -21,6 +23,14 @@ border-top-right-radius: 10px;
 top: 0%;
 
 
+}
+
+.info--link , .info--h2, .info--h4 {
+    background-color: black;
+    padding: 10px  0px ;
+    font-family: Inter;
+    color: white;
+    text-decoration: none;
 }
 
 .footer {
@@ -34,30 +44,96 @@ top: 0%;
     margin-right: auto;
     color: #61DAFB;
     font-weight: 400;
-    top:0%;
+    
+    text-align: center;
+    
 }
 
+.footer > h4{
+    margin: 10px 8px;
+}
 .about-cont{
     color: white;
-    
+    padding: 15px;
     background-color: black;
+}
+
+.about-cont > h3, .about-cont > p {
+    background-color: black;
+    margin-top: 8px;
 }
 
 .int-cont {
     
     color: white;
     background-color: black;
+    padding: 15px;
+    
+}
 
+.int-cont > h3, .int-cont > p {
+    background-color: black;
+    margin-top: 8px;
 }
 
 .top-cont{
     color: white;
     background-color: black;
     align-items: center;
+    text-align: center;
+    
 }
 
 .top-cont > button {
     display: flex;
-    margin: 10px;
+    margin: auto;
+    margin-top: 14px;
 
 }
+
+.info--email_button {
+    border: none;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(54, 24, 124, 0.5), 0 6px 20px 0 rgba(100, 20, 20, 0.19);
+    margin: 0;
+    margin-right: auto;
+  
+}
+
+.info--email_button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+
+.info--linkedin_button {
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 0;
+    margin: center;
+
+}
+
+.info--linkedin_button:hover {
+    background-color: white; 
+    color: black; 
+  }

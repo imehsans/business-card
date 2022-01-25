@@ -3,13 +3,10 @@ import React from "react"
 export default function Footer(){
     return (
         <div className="footer">
-            <ul>
-                <li>Twiter</li>
-                <li>Facebook</li>
-                <li>github</li>
-                <li>insta</li>
-            </ul>
-            
+                <h4>Twiter</h4>
+                <h4>Facebook</h4>
+                <h4>github</h4>
+                <h4>insta</h4>
         </div>
     )
 }
